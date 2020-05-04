@@ -65,7 +65,6 @@
 							<ul class="icons">
 								<li><a href="https://www.linkedin.com/in/brandoniking/" class="icon brands fa-linkedin">LinkedIn</a></li>
 								<li><a href="https://github.com/bking2415" class="icon brands fa-github">Github</a></li>
-								<li><a href="#" class="icon brands fa-facebook-f">Facebook</a></li>
 							</ul>
 						</footer>
 					</section>
