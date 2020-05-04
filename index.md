@@ -66,6 +66,7 @@
 								<li><a href="https://www.linkedin.com/in/brandoniking/" class="icon brands fa-linkedin">LinkedIn</a></li>
 								<li><a href="https://github.com/bking2415" class="icon brands fa-github">Github</a></li>
 							</ul>
+							<a href="#banner" class="button circled scrolly">Start</a>
 						</footer>
 					</section>
 
@@ -77,6 +78,18 @@
 					</footer>
 
 			</div>
+			
+			 <!-- Banner -->
+			    <section id="banner">
+				<header>
+				    <h2>Greetings. You're getting a glance of <strong>B.King's Portofolio</strong>.</h2>
+				    <p>
+					A (free) responsive site template by <a href="http://html5up.net">HTML5 UP</a>.
+					Built with HTML5/CSS3 and released under the <a href="http://html5up.net/license">CCA</a> license.
+				    </p>
+				</header>
+			    </section>
+
 
 		<!-- Scripts -->
 			<script>
