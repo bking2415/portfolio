@@ -1,3 +1,13 @@
+<html>
+<head>
+  <title>My Portfolio</title>
+</head>
+<body>
+  <h1>Example projects</h1>
+  <footer>brandoniking 2020</footer>
+</body>
+</html>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/bking2415/brandoniking.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
