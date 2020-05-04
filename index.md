@@ -63,8 +63,8 @@
 						-->
 						<footer>
 							<ul class="icons">
-								<li><a href="#" class="icon brands fa-twitter">Twitter</a></li>
-								<li><a href="#" class="icon brands fa-instagram">Instagram</a></li>
+								<li><a href="#" class="icon brands fa-linkedin">LinkedIn</a></li>
+								<li><a href="#" class="icon brands fa-github">Github</a></li>
 								<li><a href="#" class="icon brands fa-facebook-f">Facebook</a></li>
 							</ul>
 						</footer>
