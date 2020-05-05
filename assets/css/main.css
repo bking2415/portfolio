@@ -72,6 +72,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Circular for square image */
+
+.circular--square {
+  border-radius: 50%;
+}
+
 /* Basic */
 
 	html {
