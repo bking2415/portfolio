@@ -1,17 +1,21 @@
 /*
-	Helios by HTML5 UP
+	Identity by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Carousel */
+/* Basic */
 
-	.carousel {
-		overflow-x: auto;
+	body:after {
+		display: none;
 	}
 
-/* Header */
+/* Main */
 
-	body.homepage.is-preload #header:after {
-		opacity: 0;
+	#main {
+		-moz-transform: none !important;
+		-webkit-transform: none !important;
+		-ms-transform: none !important;
+		transform: none !important;
+		opacity: 1 !important;
 	}
