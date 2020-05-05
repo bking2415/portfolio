@@ -2526,7 +2526,7 @@ input, select, textarea {
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
 		padding: 1em ;
-		background: #ffffff;
+		background: #2b252c;
 		border-radius: 4px;
 		cursor: default;
 		max-width: 100%;
