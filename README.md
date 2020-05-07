@@ -2,6 +2,8 @@
 
 This site will give you insight on some of the current and part projects that I have worked on throughout my self development as a programmer.
 
+Take a look at the live version at [https://bking2415.github.io/brandoniking.github.io/](https://bking2415.github.io/brandoniking.github.io/)
+
 **Sections are listed below:**
 1. About Me
 2. Example Data Science Projects
