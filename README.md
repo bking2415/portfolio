@@ -1,4 +1,4 @@
-# Brandon I. King Portfolio
+# Brandon I. King Data Scientist Portfolio
 
 This site will give you insight on some of the current and part projects that I have worked on throughout my self development as a programmer.
 
