@@ -1806,6 +1806,19 @@ input, select, textarea {
 			width: 100%;
 			margin: 0 0 4em 0;
 		}
+		
+		.image.zoom {
+			display: block;
+			width: 100%;
+			margin: 0 0 4em 0;
+			transition: transform .2s; /* Animation */
+		}
+
+		.image.zoom:hover {
+			-ms-transform: scale(1.5); /* IE 9 */
+			-webkit-transform: scale(1.5); /* Safari 3-8 */
+			transform: scale(1.5); 
+		}
 
 		.image.left {
 			float: left;
