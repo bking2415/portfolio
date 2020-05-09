@@ -1811,6 +1811,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			transition: transform 1s; /* Animation */
+			border: 1px solid #fff;
 		}
 
 		.image.zoom:hover {
@@ -1818,6 +1819,7 @@ input, select, textarea {
 			-webkit-transform: scale(1.2); /* Safari 3-8 */
 			transform: scale(1.2);
 			z-index: 3;
+			box-shadow: 2px 2px 2px #fff;
 		}
 
 		.image.left {
