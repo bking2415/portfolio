@@ -2733,7 +2733,7 @@ input, select, textarea {
 
 		.carousel article {
 			display: inline-block;
-			width: 18em;
+/* 			width: 18em; */
 /* 			width:18em; */
 			height:100%;
 			vertical-align:top;
