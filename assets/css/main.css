@@ -2732,11 +2732,11 @@ input, select, textarea {
 		}
 
 		.carousel article {
-/* 			display: inline-block; */
-/* 			width: 18em; */
-			display: inline-flex;
+			display: inline-block;
+			width: 18em;
 /* 			width:18em; */
 			height:100%;
+			vertical-align:top;
 			background: #fff;
 			text-align: center;
 			padding: 0 1em 3em 1em;
