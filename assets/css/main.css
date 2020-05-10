@@ -2735,8 +2735,8 @@ input, select, textarea {
 			display: inline-block;
 /* 			width: 18em; */
 /* 			display: flex; */
-			width:100%;
-			height:auto;
+			width:18em;
+			height:100%;
 			background: #fff;
 			text-align: center;
 			padding: 0 1em 3em 1em;
