@@ -2733,9 +2733,9 @@ input, select, textarea {
 
 		.carousel article {
 			display: inline-block;
-			width: auto;
+			width: 18em;
 /* 			width:18em; */
-			height: 18em;
+			height: 100%;
 			vertical-align:top;
 			background: #fff;
 			text-align: center;
