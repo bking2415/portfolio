@@ -2526,7 +2526,7 @@ input, select, textarea {
 			border-bottom-color: #dddddd;
 		}
 
-		#scrollNav + #Main {
+		#scrollNav + #main {
 			padding-top: 4.25em;
 		}
 
@@ -2594,7 +2594,7 @@ input, select, textarea {
 				display: none;
 			}
 
-				#scrollNav + #Main {
+				#scrollNav + #main {
 					padding-top: 0;
 				}
 
