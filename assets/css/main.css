@@ -2486,8 +2486,9 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
-		width: 64em;
-		max-width: calc(100% - 4em);
+/* 		width: 64em;
+		max-width: calc(100% - 4em); */
+		width: 100%;
 		padding: 1em;
 		background-color: #f7f7f7;
 		border-top-left-radius: 0.25em;
@@ -2587,7 +2588,7 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
-		@media screen and (max-width: 100%) {
+		@media screen and (max-width: 736px) {
 
 			#scrollNav {
 				display: none;
