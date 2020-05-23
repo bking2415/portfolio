@@ -2525,7 +2525,7 @@ input, select, textarea {
 			border-bottom-color: #dddddd;
 		}
 
-		#scrollNav + #main {
+		#scrollNav + #scrollMain {
 			padding-top: 4.25em;
 		}
 
@@ -2593,7 +2593,7 @@ input, select, textarea {
 				display: none;
 			}
 
-				#scrollNav + #main {
+				#scrollNav + #scrollMain {
 					padding-top: 0;
 				}
 
@@ -2647,6 +2647,355 @@ input, select, textarea {
 		#main section:first-of-type {
 			padding-top: 2em;
 		}
+
+/* Scroll Main */
+
+#scrollMain {
+		background-color: #ffffff;
+		color: #636363;
+		border-radius: 0.25em;
+	}
+
+		#scrollMain input, #scrollMain select, #scrollMain textarea {
+			color: #636363;
+		}
+
+		#scrollMain a:hover {
+			color: #636363;
+		}
+
+		#scrollMain strong, #scrollMain b {
+			color: #636363;
+		}
+
+		#scrollMain h1, #scrollMain h2, #scrollMain h3, #scrollMain h4, #scrollMain h5, #scrollMain h6 {
+			color: #636363;
+		}
+
+		#scrollMain blockquote {
+			border-left-color: #dddddd;
+		}
+
+		#scrollMain code {
+			background: rgba(222, 222, 222, 0.25);
+			border-color: #dddddd;
+		}
+
+		#scrollMain hr {
+			border-bottom-color: #dddddd;
+		}
+
+		#scrollMain .box {
+			border-color: #dddddd;
+		}
+
+		#scrollMain input[type="submit"],
+		#scrollMain input[type="reset"],
+		#scrollMain input[type="button"],
+		#scrollMain button,
+		#scrollMain .button {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 1px #dddddd;
+			color: #636363 !important;
+		}
+
+			#scrollMain input[type="submit"]:hover,
+			#scrollMain input[type="reset"]:hover,
+			#scrollMain input[type="button"]:hover,
+			#scrollMain button:hover,
+			#scrollMain .button:hover {
+				background-color: rgba(222, 222, 222, 0.25);
+			}
+
+			#scrollMain input[type="submit"]:active,
+			#scrollMain input[type="reset"]:active,
+			#scrollMain input[type="button"]:active,
+			#scrollMain button:active,
+			#scrollMain .button:active {
+				background-color: rgba(222, 222, 222, 0.5);
+			}
+
+			#scrollMain input[type="submit"].icon:before,
+			#scrollMain input[type="reset"].icon:before,
+			#scrollMain input[type="button"].icon:before,
+			#scrollMain button.icon:before,
+			#scrollMain .button.icon:before {
+				color: rgba(99, 99, 99, 0.25);
+			}
+
+			#scrollMain input[type="submit"].primary,
+			#scrollMain input[type="reset"].primary,
+			#scrollMain input[type="button"].primary,
+			#scrollMain button.primary,
+			#scrollMain .button.primary {
+				background-color: #8cc9f0;
+				color: #ffffff !important;
+				box-shadow: none;
+			}
+
+				#scrollMain input[type="submit"].primary:hover,
+				#scrollMain input[type="reset"].primary:hover,
+				#scrollMain input[type="button"].primary:hover,
+				#scrollMain button.primary:hover,
+				#scrollMain .button.primary:hover {
+					background-color: #9acff2;
+				}
+
+				#scrollMain input[type="submit"].primary:active,
+				#scrollMain input[type="reset"].primary:active,
+				#scrollMain input[type="button"].primary:active,
+				#scrollMain button.primary:active,
+				#scrollMain .button.primary:active {
+					background-color: #7ec3ee;
+				}
+
+				#scrollMain input[type="submit"].primary.icon:before,
+				#scrollMain input[type="reset"].primary.icon:before,
+				#scrollMain input[type="button"].primary.icon:before,
+				#scrollMain button.primary.icon:before,
+				#scrollMain .button.primary.icon:before {
+					color: #ffffff !important;
+				}
+
+		#scrollMain label {
+			color: #636363;
+		}
+
+		#scrollMain input[type="text"],
+		#scrollMain input[type="password"],
+		#scrollMain input[type="email"],
+		#scrollMain select,
+		#scrollMain textarea {
+			background-color: rgba(222, 222, 222, 0.25);
+			border-color: #dddddd;
+		}
+
+			#scrollMain input[type="text"]:focus,
+			#scrollMain input[type="password"]:focus,
+			#scrollMain input[type="email"]:focus,
+			#scrollMain select:focus,
+			#scrollMain textarea:focus {
+				border-color: #8cc9f0;
+				box-shadow: 0 0 0 1px #8cc9f0;
+			}
+
+		#scrollMain select {
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dddddd' /%3E%3C/svg%3E");
+		}
+
+			#scrollMain select option {
+				color: #636363;
+				background: #ffffff;
+			}
+
+		#scrollMain input[type="checkbox"] + label,
+		#scrollMain input[type="radio"] + label {
+			color: #636363;
+		}
+
+			#scrollMain input[type="checkbox"] + label:before,
+			#scrollMain input[type="radio"] + label:before {
+				background: rgba(222, 222, 222, 0.25);
+				border-color: #dddddd;
+			}
+
+		#scrollMain input[type="checkbox"]:checked + label:before,
+		#scrollMain input[type="radio"]:checked + label:before {
+			background-color: #636363;
+			border-color: #636363;
+			color: #ffffff;
+		}
+
+		#scrollMain input[type="checkbox"]:focus + label:before,
+		#scrollMain input[type="radio"]:focus + label:before {
+			border-color: #8cc9f0;
+			box-shadow: 0 0 0 1px #8cc9f0;
+		}
+
+		#scrollMain ::-webkit-input-placeholder {
+			color: rgba(99, 99, 99, 0.25) !important;
+		}
+
+		#scrollMain :-moz-placeholder {
+			color: rgba(99, 99, 99, 0.25) !important;
+		}
+
+		#scrollMain ::-moz-placeholder {
+			color: rgba(99, 99, 99, 0.25) !important;
+		}
+
+		#scrollMain :-ms-input-placeholder {
+			color: rgba(99, 99, 99, 0.25) !important;
+		}
+
+		#scrollMain .formerize-placeholder {
+			color: rgba(99, 99, 99, 0.25) !important;
+		}
+
+		#scrollMain .icon.major {
+			border-color: #dddddd;
+		}
+
+			#scrollMain .icon.major:before {
+				border-color: #dddddd;
+			}
+
+		#scrollMain .icon.alt {
+			border-color: #dddddd;
+			color: #636363;
+		}
+
+			#scrollMain .icon.alt:hover {
+				background-color: rgba(222, 222, 222, 0.25);
+			}
+
+			#scrollMain .icon.alt:active {
+				background-color: rgba(222, 222, 222, 0.5);
+			}
+
+		#scrollMain ul.alt li {
+			border-top-color: #dddddd;
+		}
+
+		#scrollMain dl dt {
+			color: #636363;
+		}
+
+		#scrollMain header.major h2:after {
+			background-color: #dddddd;
+			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+		}
+
+		#scrollMain table tbody tr {
+			border-color: #dddddd;
+		}
+
+			#scrollMain table tbody tr:nth-child(2n + 1) {
+				background-color: rgba(222, 222, 222, 0.25);
+			}
+
+		#scrollMain table th {
+			color: #636363;
+		}
+
+		#scrollMain table thead {
+			border-bottom-color: #dddddd;
+		}
+
+		#scrollMain table tfoot {
+			border-top-color: #dddddd;
+		}
+
+		#scrollMain table.alt tbody tr td {
+			border-color: #dddddd;
+		}
+
+		#scrollMain .spotlight .image {
+			border-color: #dddddd;
+		}
+
+		#scrollMain > .scrollMain {
+			padding: 5em 5em 3em 5em ;
+			border-top: solid 1px #dddddd;
+		}
+
+			#scrollMain > .scrollMain:first-child {
+				border-top: 0;
+			}
+
+			#scrollMain > .scrollMain > .image.scrollMain:first-child {
+				margin: -5em 0 5em -5em;
+				width: calc(100% + 10em);
+				border-top-right-radius: 0.25em;
+				border-top-left-radius: 0.25em;
+				border-bottom-right-radius: 0;
+				border-bottom-left-radius: 0;
+			}
+
+				#scrollMain > .scrollMain > .image.scrollMain:first-child img {
+					border-top-right-radius: 0.25em;
+					border-top-left-radius: 0.25em;
+					border-bottom-right-radius: 0;
+					border-bottom-left-radius: 0;
+				}
+
+		@media screen and (max-width: 1280px) {
+
+			#scrollMain > .scrollMain {
+				padding: 4em 4em 2em 4em ;
+			}
+
+				#scrollMain > .scrollMain > .image.scrollMain:first-child {
+					margin: -4em 0 4em -4em;
+					width: calc(100% + 8em);
+				}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#scrollMain > .scrollMain {
+				padding: 4em 3em 2em 3em ;
+			}
+
+				#scrollMain > .scrollMain > .image.scrollMain:first-child {
+					margin: -4em 0 4em -3em;
+					width: calc(100% + 6em);
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#scrollMain > .scrollMain {
+				padding: 3em 2em 1em 2em ;
+			}
+
+				#scrollMain > .scrollMain > .image.scrollMain:first-child {
+					margin: -3em 0 2em -2em;
+					width: calc(100% + 4em);
+				}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#scrollMain > .scrollMain {
+				padding: 3em 1.5em 1em 1.5em ;
+			}
+
+				#scrollMain > .scrollMain > .image.scrollMain:first-child {
+					margin: -3em 0 1.5em -1.5em;
+					width: calc(100% + 3em);
+				}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			#scrollMain {
+				border-radius: 0;
+			}
+
+				#scrollMain > .scrollMain {
+					padding: 2.5em 1em 0.5em 1em ;
+				}
+
+					#scrollMain > .scrollMain > .image.scrollMain:first-child {
+						margin: -2.5em 0 1.5em -1em;
+						width: calc(100% + 2em);
+						border-radius: 0;
+					}
+
+						#scrollMain > .scrollMain > .image.scrollMain:first-child img {
+							border-radius: 0;
+						}
+
+		}
+
 
 /* Section */
 
