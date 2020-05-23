@@ -16,7 +16,7 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, scrollNav, output, ruby,
+footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -26,7 +26,7 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, scrollNav, section {
+footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
@@ -2478,7 +2478,7 @@ input, select, textarea {
 
 /* Scroll Nav */
 
-	#scrollNav {
+	.scrollNav {
 		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
@@ -2496,46 +2496,46 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#scrollNav input, #scrollNav select, #scrollNav textarea {
+		.scrollNav input, .scrollNav select, .scrollNav textarea {
 			color: #636363;
 		}
 
-		#scrollNav a:hover {
+		.scrollNav a:hover {
 			color: #636363;
 		}
 
-		#scrollNav strong, #scrollNav b {
+		.scrollNav strong, .scrollNav b {
 			color: #636363;
 		}
 
-		#scrollNav h1, #scrollNav h2, #scrollNav h3, #scrollNav h4, #scrollNav h5, #scrollNav h6 {
+		.scrollNav h1, .scrollNav h2, .scrollNav h3, .scrollNav h4, .scrollNav h5, .scrollNav h6 {
 			color: #636363;
 		}
 
-		#scrollNav blockquote {
+		.scrollNav blockquote {
 			border-left-color: #dddddd;
 		}
 
-		#scrollNav code {
+		.scrollNav code {
 			background: rgba(222, 222, 222, 0.25);
 			border-color: #dddddd;
 		}
 
-		#scrollNav hr {
+		.scrollNav hr {
 			border-bottom-color: #dddddd;
 		}
 
-		#scrollNav + #main {
+		.scrollNav + #main {
 			padding-top: 4.25em;
 		}
 
-		#scrollNav ul {
+		.scrollNav ul {
 			margin: 0;
 			padding: 0;
 			list-style: none;
 		}
 
-			#scrollNav ul li {
+			.scrollNav ul li {
 				-moz-transition: margin 0.2s ease;
 				-webkit-transition: margin 0.2s ease;
 				-ms-transition: margin 0.2s ease;
@@ -2546,7 +2546,7 @@ input, select, textarea {
 				vertical-align: middle;
 			}
 
-				#scrollNav ul li a {
+				.scrollNav ul li a {
 					-moz-transition: font-size 0.2s ease;
 					-webkit-transition: font-size 0.2s ease;
 					-ms-transition: font-size 0.2s ease;
@@ -2560,16 +2560,16 @@ input, select, textarea {
 					box-shadow: inset 0 0 0 1px transparent;
 				}
 
-					#scrollNav ul li a:hover {
+					.scrollNav ul li a:hover {
 						background-color: rgba(222, 222, 222, 0.25);
 					}
 
-					#scrollNav ul li a.active {
+					.scrollNav ul li a.active {
 						background-color: #ffffff;
 						box-shadow: none;
 					}
 
-		#scrollNav.alt {
+		.scrollNav.alt {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
@@ -2579,21 +2579,21 @@ input, select, textarea {
 			z-index: 10000;
 		}
 
-			#scrollNav.alt ul li {
+			.scrollNav.alt ul li {
 				margin: 0 0.175em;
 			}
 
-				#scrollNav.alt ul li a {
+				.scrollNav.alt ul li a {
 					font-size: 0.9em;
 				}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 1280px) {
 
-			#scrollNav {
+			.scrollNav {
 				display: none;
 			}
 
-				#scrollNav + #main {
+				.scrollNav + #main {
 					padding-top: 0;
 				}
 
