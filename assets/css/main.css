@@ -2647,7 +2647,7 @@ input, select, textarea {
 			border-bottom-color: #dddddd;
 		}
 
-		#scrollNav + #banner{
+		#scrollNav + #main{
 			padding-top: 4.25em;
 		}
 
@@ -2711,7 +2711,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#scrollNav + #banner{
+			#scrollNav + #main{
 				display: none;
 			}
 
