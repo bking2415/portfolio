@@ -2543,7 +2543,7 @@ input, select, textarea {
 					}
 					
 					/* When the section is active */
-					#scrollHeader nav ul li a.active {
+					#scrollHeader nav ul li a.current {
 						background-color: #ffffff;
 						box-shadow: none;
 					}
