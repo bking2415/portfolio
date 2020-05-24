@@ -2647,7 +2647,7 @@ input, select, textarea {
 			border-bottom-color: #dddddd;
 		}
 
-		#scrollNav + #scrollMain{
+		#scrollNav + #main{
 			padding-top: 4.25em;
 		}
 
@@ -2711,7 +2711,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#scrollNav + #scrollMain{
+			#scrollNav + #main{
 				display: none;
 			}
 
@@ -2772,7 +2772,7 @@ input, select, textarea {
 		
 		
 /* scrollMain */
-
+/* 
 	#scrollMain {
 		background-color: #ffffff;
 		color: #636363;
@@ -3117,7 +3117,7 @@ input, select, textarea {
 							border-radius: 0;
 						}
 
-		}
+		} */
 
 
 /* Section */
