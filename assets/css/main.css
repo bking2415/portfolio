@@ -2618,7 +2618,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-/* 		#scrollNav input, #scrollNav select, #scrollNav textarea {
+		#scrollNav input, #scrollNav select, #scrollNav textarea {
 			color: #636363;
 		}
 
@@ -2647,7 +2647,7 @@ input, select, textarea {
 			border-bottom-color: #dddddd;
 		}
 
-		#scrollNav + #main{
+		#scrollNav + #banner{
 			padding-top: 4.25em;
 		}
 
@@ -2711,7 +2711,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#scrollNav + #main{
+			#scrollNav + #banner{
 				display: none;
 			}
 
@@ -2719,7 +2719,7 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
-		} */
+		}
 
 /* Banner */
 
