@@ -2546,7 +2546,8 @@ input, select, textarea {
 				
 						/* When the section is active */
 					#scrollHeader nav ul li a.active {
-						background-color: #df7366;
+						color: #ef8376;
+						background-color: #ffffff;
 						box-shadow: none;
 					}
 					
