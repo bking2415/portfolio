@@ -46,7 +46,7 @@
 	// Scrolly.
 		$('.scrolly').scrolly();
 	// Scroll Nav.
-		var $nav = $('#scrollHeader');
+		var $nav = $('#scrollNav');
 
 		if ($nav.length > 0) {
 
