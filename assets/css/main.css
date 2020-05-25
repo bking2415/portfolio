@@ -2541,11 +2541,13 @@ input, select, textarea {
 					#scrollHeader nav ul li a:hover {
 						background-color: rgba(222, 222, 222, 0.25);
 					}
-					
-					/* When the section is active */
-					#scrollHeader nav ul li a.active {
-						background-color: #df7366;
-						box-shadow: none;
+
+					&__link {
+						/* When the section is active */
+						#scrollHeader nav ul li a.active {
+							background-color: #df7366;
+							box-shadow: none;
+						}
 					}
 
 		@media screen and (max-width: 736px) {
@@ -2586,31 +2588,6 @@ input, select, textarea {
 
 		}
 
-/* Nav  with active class and smooth scroll */
-.navigation {
-  	position: fixed; 
-		width: 30%;
-		margin-left: 2%;
-  	background-color: #999;
-  	color: #fff;
-	
-  	&__link {
-			display: block;
-    	color: #ddd; 
-    	text-decoration: none;
-    	padding: 1em;
-			font-weight: 400;
-			
-			&:hover {
-				background-color: #aaa;
-			}
-		
-		   &.active {
-		   	color: white;
-				 background-color: rgba(0,0,0,0.1);
-		   }
-  	}
-}
 
 /* Nav */
 
