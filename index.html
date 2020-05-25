@@ -111,7 +111,14 @@
 					</ul>
 					<script src="https://code.jquery.com/jquery-3.5.1.js"</script>
 					<script type="text/javascript">
-						$(document).ready(function () {
+						$(document).ready(function (){
+							$('li').on('click', function (){
+								$(this).siblings().removeClass('active');
+								$(this).addClass('active');
+							})
+						})	
+							
+					/*	$(document).ready(function () {
 							$(document).on("scroll", onScroll);
 
 							$('a[href^="#"]').on('click', function (e) {
@@ -147,7 +154,7 @@
 									currentLink.removeClass("active");
 								}
 							});
-						}
+						} */
 					</script>
 				</nav>
 			</header>
