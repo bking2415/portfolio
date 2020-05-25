@@ -1,97 +1,42 @@
 /*
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	https://jsfiddle.net/cse_tushar/Dxtyu/141/
 */
 
-(function($) {
+$(document).ready(function() {
+  $(document).on("scroll", onScroll);
 
-	// Nav.
-		var $nav = $('#scrollNav');
+  //smoothscroll
+  $('a[href^="#"]').on('click', function(e) {
+    e.preventDefault();
+    $(document).off("scroll");
 
-		if ($nav.length > 0) {
+    $('a').each(function() {
+      $(this).removeClass('active');
+    })
+    $(this).addClass('active');
 
-			// Shrink effect.
-				$main
-					.scrollex({
-						mode: 'top',
-						enter: function() {
-							$nav.addClass('alt');
-						},
-						leave: function() {
-							$nav.removeClass('alt');
-						},
-					});
+    var target = this.hash,
+      menu = target;
+    $target = $(target);
+    $('html, body').stop().animate({
+      'scrollTop': $target.offset().top + 2
+    }, 500, 'swing', function() {
+      window.location.hash = target;
+      $(document).on("scroll", onScroll);
+    });
+  });
+});
 
-			// Links.
-				var $nav_a = $nav.find('a');
-
-				$nav_a
-					.scrolly({
-						speed: 1000,
-						offset: function() { return $nav.height(); }
-					})
-					.on('click', function() {
-
-						var $this = $(this);
-
-						// External link? Bail.
-							if ($this.attr('href').charAt(0) != '#')
-								return;
-
-						// Deactivate all links.
-							$nav_a
-								.removeClass('active')
-								.removeClass('active-locked');
-
-						// Activate link *and* lock it (so Scrollex doesn't try to activate other links as we're scrolling to this one's section).
-							$this
-								.addClass('active')
-								.addClass('active-locked');
-
-					})
-					.each(function() {
-
-						var	$this = $(this),
-							id = $this.attr('href'),
-							$section = $(id);
-
-						// No section for this link? Bail.
-							if ($section.length < 1)
-								return;
-
-						// Scrollex.
-							$section.scrollex({
-								mode: 'middle',
-								initialize: function() {
-
-									// Deactivate section.
-										if (browser.canUse('transition'))
-											$section.addClass('inactive');
-
-								},
-								enter: function() {
-
-									// Activate section.
-										$section.removeClass('inactive');
-
-									// No locked links? Deactivate all links and activate this section's one.
-										if ($nav_a.filter('.active-locked').length == 0) {
-
-											$nav_a.removeClass('active');
-											$this.addClass('active');
-
-										}
-
-									// Otherwise, if this section's link is the one that's locked, unlock it.
-										else if ($this.hasClass('active-locked'))
-											$this.removeClass('active-locked');
-
-								}
-							});
-
-					});
-
-		}
-
-})(jQuery);
+function onScroll(event) {
+  var scrollPos = $(document).scrollTop();
+  $('#scrollHeader nav a').each(function() {
+    var currLink = $(this);
+    var refElement = $(currLink.attr("href"));
+    if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+      $('#scrollHeader nav ul li a').removeClass("active");
+      currLink.addClass("active");
+    } else {
+      currLink.removeClass("active");
+    }
+  });
+}
