@@ -64,10 +64,23 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### HTML5 UP Themes
 
-This Git Page site will use a combination of the layout and styles from the HTML5 UP themes called [Identity](https://html5up.net/identity) and  [Helios](https://html5up.net/helios). Huge shout out the [HTML5 UP Templates](https://html5up.net).
+This Git Page site will use a combination of the layout and styles from the HTML5 UP themes called [Big Picture](https://html5up.net/big-picture), [Identity](https://html5up.net/identity) and  [Helios](https://html5up.net/helios). Huge shout out the [HTML5 UP Templates](https://html5up.net).
 
 The temporary github theme **Jekyll** can be selected in your settings [repository settings](https://github.com/bking2415/brandoniking.github.io/settings), and saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+### Credits:
+
+Images:
+		Unsplash (unsplash.com)
+
+Icons:
+		Font Awesome (fontawesome.io)
+
+Other:
+		jQuery (jquery.com)
+		Scrollex (github.com/ajlkn/jquery.scrollex)
+		Responsive Tools (github.com/ajlkn/responsive-tools)
