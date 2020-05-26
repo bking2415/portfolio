@@ -75,12 +75,12 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### Credits:
 
 Images:
-		Unsplash (unsplash.com)
+	[Unsplash](unsplash.com)
 
 Icons:
-		Font Awesome (fontawesome.io)
+	[Font Awesome](fontawesome.io)
 
 Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+	[jQuery](jquery.com)
+	[Scrollex](github.com/ajlkn/jquery.scrollex)
+	[Responsive Tools](github.com/ajlkn/responsive-tools)
