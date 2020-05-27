@@ -14,7 +14,7 @@
 
   #Send email
   $headers = "From: $email_addressn";
-  $sent = mail($to, 'Feedback Form Submission', $feedback, $headers);
+  $sent = mail($to, 'Feedback Form Submission', $message, $headers);
 
   #Thank user or notify them of a problem
   if ($sent) {
