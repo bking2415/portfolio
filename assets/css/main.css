@@ -78,6 +78,8 @@ input, select, textarea {
   border-radius: 50%;
 }
 
+
+
 /* Basic */
 
 	html {
@@ -2411,6 +2413,10 @@ input, select, textarea {
 
 			#header h1 a {
 				color: inherit;
+			}
+			
+			#header h1 a:hover {
+				color: #ef8376;
 			}
 
 		#header .button {
