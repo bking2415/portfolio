@@ -2,7 +2,7 @@
 
 $(document).ready(function(){       
        var scroll_pos = $(this).scrollTop();
-       $(document).each(function() {  
+       $(document).scroll(function() {  
              if(scroll_pos > 48) {
                    $("#scrollHeader h1 a").css("font-weight", "900");
              } else {
