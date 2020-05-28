@@ -7,7 +7,7 @@ $(document).ready(function(){
                     $("#scrollHeader h1 a").css("color", "red");
                 } else {
                     $("#scrollHeader h1 a").css("font-weight", "normal");
-                    $("#scrollHeader h1 a").css("font-weight", "yellow");
+                    $("#scrollHeader h1 a").css("color", "yellow");
                 }
             });
         });
