@@ -29,6 +29,7 @@ $(document).ready(function() {
 
 function onScroll(event) {
   var scrollPos = $(document).scrollTop();
+  $("#scrollHeader h1 a").css("font-weight", "normal");
   $('#scrollHeader nav a').each(function() {
     var currLink = $(this);
     var refElement = $(currLink.attr("href"));
