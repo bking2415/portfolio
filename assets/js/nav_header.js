@@ -1,7 +1,7 @@
 // https://stackoverflow.com/questions/8755887/jquery-change-background-color-user-scroll
 
 $(document).ready(function(){       
-            var scroll_pos = 0;
+            var scroll_pos = $(document).scrollTop();
             $(document).scroll(function() { 
                 scroll_pos = $(this).scrollTop();
                 if(scroll_pos > 48) {
