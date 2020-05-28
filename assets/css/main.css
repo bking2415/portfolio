@@ -2511,6 +2511,11 @@ input, select, textarea {
 			#scrollHeader h1 a {
 				font-size: 1.25em;
 			}
+			
+			/* When the mouse hover over the background change */
+			#scrollHeader h1 a:hover {
+				color: #ef8376;
+			}
 
 		#scrollHeader nav {
 			position: absolute;
