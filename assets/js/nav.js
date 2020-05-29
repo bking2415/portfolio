@@ -40,8 +40,9 @@ function onScroll(event) {
 		$('#scrollHeader nav ul li a').removeClass("active");
       		currLink.addClass("active");
     	} else {
-		$("#scrollHeader h1 a").css("font-weight", "900");
+		
       		currLink.removeClass("active");
     	}
+	$("#scrollHeader h1 a").css("font-weight", "900");
   });
 }
