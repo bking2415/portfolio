@@ -28,12 +28,15 @@ $(document).ready(function() {
 });
 
 function onScroll(event) {
-  var scrollPos = $(document).scrollTop();
-  $("#scrollHeader h1 a").css("font-weight", "normal");
-  $('#scrollHeader nav a').each(function() {
+  	var scrollPos = $(document).scrollTop();
+	if(scroll_pos > 48) {
+		$("#scrollHeader h1 a").css("font-weight", "900");
+	} else {
+  		$("#scrollHeader h1 a").css("font-weight", "normal");
+        }
+  	$('#scrollHeader nav a').each(function() {
     	var currLink = $(this);
     	var refElement = $(currLink.attr("href"));
-	$("#scrollHeader h1 a").css("font-weight", "900");  
     	if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
 //      		$("#scrollHeader h1 a").css("font-weight", "900");
 		$('#scrollHeader nav ul li a').removeClass("active");
