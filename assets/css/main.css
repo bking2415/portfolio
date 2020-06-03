@@ -3346,13 +3346,12 @@ input, select, textarea {
 				margin: 0 0 1em 0;
 			}
 		
-/* 			.image.bottomright {
-				display: block;
-  				margin-left: auto;
-  				margin-right: auto;
+			.image.bottomright {
+  				margin-left: 1px;
+  				margin-right: 1px;
 				z-index: 1;
-				max-width: 200px;
-			} */
+				max-width: 10%;
+			}
 
 		/* Actions */
 
