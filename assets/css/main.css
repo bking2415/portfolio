@@ -1809,6 +1809,7 @@ input, select, textarea {
 
 		/* Set image to bottom right */
 		.image.bottomright {
+			display: block;
 			position: absolute;
 			bottom: 45px;
 			right: 8px;
