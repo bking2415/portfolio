@@ -1809,11 +1809,11 @@ input, select, textarea {
 
 		/* Set image to bottom right */
 		.image.bottomright {
-			display: block;
 			position: absolute;
 			bottom: 45px;
 			right: 8px;
-			max-width: 300px;
+/* 			max-width: 300px; */
+			max-width: 80%;
 		}
 
 		.image.zoom {
@@ -3346,13 +3346,13 @@ input, select, textarea {
 				margin: 0 0 1em 0;
 			}
 		
-			.image.bottomright {
+/* 			.image.bottomright {
 				display: block;
   				margin-left: auto;
   				margin-right: auto;
 				z-index: 1;
 				max-width: 200px;
-			}
+			} */
 
 		/* Actions */
 
