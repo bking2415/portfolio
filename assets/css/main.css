@@ -3344,6 +3344,15 @@ input, select, textarea {
 			.image.centered {
 				margin: 0 0 1em 0;
 			}
+		
+			.image.bottomright {
+				display: block;
+/* 				margin-left: auto;
+				margin-right: auto; */
+				margin: 0 0 1em 0;
+				z-index: 1;
+				max-width: 200px;
+			}
 
 		/* Actions */
 
@@ -3618,16 +3627,16 @@ input, select, textarea {
 					margin-bottom: 2.5em;
 				}
 		
-				#header .image.bottomright {
+/* 				#header .image.bottomright {
 					display: block;
 					margin-left: auto;
 					margin-right: auto;
 					z-index: 1;
-		/* 			position: absolute;
+					position: absolute;
 					bottom: 8px;
-					right: 8px; */
+					right: 8px;
 					max-width: 200px;
-				}
+				}  */
 
 			body.homepage #header {
 				min-height: 0;
