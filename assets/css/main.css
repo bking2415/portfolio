@@ -78,14 +78,6 @@ input, select, textarea {
   border-radius: 50%;
 }
 
-/* Set image to bottom right */
-.bottomright {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-
 /* Basic */
 
 	html {
@@ -1814,7 +1806,14 @@ input, select, textarea {
 			width: 100%;
 			margin: 0 0 4em 0;
 		}
-		
+
+		/* Set image to bottom right */
+		.image.bottomright {
+			  position: absolute;
+			  bottom: 8px;
+			  right: 16px;
+		}
+
 		.image.zoom {
 			display: block;
 			width: 100%;
