@@ -2436,6 +2436,14 @@ input, select, textarea {
 			padding: 0;
 		}
 
+		/* Set image to bottom right */
+		#header .image.bottomright {
+			position: absolute;
+			bottom: 45px;
+			right: 8px;
+			max-width: 300px;
+		}
+
 		#header hr {
 			top: 1.5em;
 			margin-bottom: 3em;
