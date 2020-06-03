@@ -3615,6 +3615,17 @@ input, select, textarea {
 					top: 1em;
 					margin-bottom: 2.5em;
 				}
+		
+				#header .image.bottomright {
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					z-index: 1;
+		/* 			position: absolute;
+					bottom: 8px;
+					right: 8px; */
+					max-width: 200px;
+				}
 
 			body.homepage #header {
 				min-height: 0;
