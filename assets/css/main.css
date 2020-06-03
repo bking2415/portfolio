@@ -3630,7 +3630,7 @@ input, select, textarea {
   					margin-left: 1px;
   					margin-right: 1px;
 					z-index: 1;
-					max-width: 10%;
+					max-width: 20%;
 				} 
 
 			body.homepage #header {
