@@ -1810,9 +1810,9 @@ input, select, textarea {
 		/* Set image to bottom right */
 		.image.bottomright {
 			position: absolute;
-			bottom: 16px;
+			bottom: 30px;
 			right: 8px;
-			max-width: 250px;
+			max-width: 300px;
 		}
 
 		.image.zoom {
