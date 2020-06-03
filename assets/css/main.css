@@ -1816,6 +1816,10 @@ input, select, textarea {
 			max-width: 80%;
 		}
 
+		.image.center {
+			border-radius: 10px;
+		}
+
 		.image.zoom {
 			display: block;
 			width: 100%;
