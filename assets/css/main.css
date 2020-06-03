@@ -1813,6 +1813,7 @@ input, select, textarea {
 			bottom: 45px;
 			right: 8px;
 			max-width: 300px;
+			z-index: 3;
 		}
 
 		.image.zoom {
