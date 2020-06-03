@@ -3020,12 +3020,12 @@ input, select, textarea {
 			}
 
 		#footer .image.center {
-			padding: 5px 0 0 0;
+/* 			padding: 5px 0 0 0; */
 			display: block;
   			margin-left: auto;
   			margin-right: auto;
 			z-index: 1;
-			border-radius: 25px;
+			border-radius: 50%;
 /* 			position: absolute;
 			bottom: 8px;
 			right: 8px; */
