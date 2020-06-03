@@ -2438,6 +2438,7 @@ input, select, textarea {
 
 		/* Set image to bottom right */
 		#header .image.bottomright {
+			z-index: 1;
 			position: absolute;
 			bottom: 45px;
 			right: 8px;
