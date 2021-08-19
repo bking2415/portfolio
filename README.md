@@ -75,7 +75,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### Credits:
 
 Images:
-	[Unsplash](unsplash.com)
+	[Unsplash](https://unsplash.com)
 
 Icons:
 	[Font Awesome](fontawesome.io)
