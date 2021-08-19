@@ -78,6 +78,6 @@ Images:
 	[Unsplash](https://unsplash.com)
 
 Icons:
-	[Font Awesome](fontawesome.io)
+	[Font Awesome](https://fontawesome.io)
 
-Other: [jQuery](jquery.com) | [Scrollex](github.com/ajlkn/jquery.scrollex) | [Responsive Tools](github.com/ajlkn/responsive-tools)
+Other: [jQuery](https://jquery.com) | [Scrollex](https://github.com/ajlkn/jquery.scrollex) | [Responsive Tools](https://github.com/ajlkn/responsive-tools)
