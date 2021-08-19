@@ -7,7 +7,7 @@ Take a look at the live version at [https://bking2415.github.io/brandoniking.git
 **Sections are listed below:**
 1. About Me
 2. Example Data Science Projects
-3. Current Research
+3. Research
 4. Side Coding Projects
 5. Personal Info
 
@@ -19,9 +19,9 @@ Brief description of myself and things I am passionate about
 
 List and links and curent and previous Data Science Projects
 
-## Current Research
+## Research
 
-Brief description of my current research and paper description
+Brief overview of my recent research
 
 ## Side Coding Projects
 
