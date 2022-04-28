@@ -2,7 +2,7 @@
 
 This site will give you insight on some of the current and part projects that I have worked on throughout my self development as a Data Scientist and programmer.
 
-Take a look at the live version at [https://bking2415.github.io/brandoniking](https://bking2415.github.io/brandoniking)
+Take a look at the live version at [https://bking2415.github.io/portfolio](https://bking2415.github.io/portfolio)
 
 **Sections are listed below:**
 1. About Me
